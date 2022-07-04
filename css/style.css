@@ -128,3 +128,19 @@ a:hover {
     transition: 400ms ease-in-out 0;
 }
 
+/*Englobar todos os itens do menu*/
+.menu-itens {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0;
+}
+
