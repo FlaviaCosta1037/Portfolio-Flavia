@@ -117,13 +117,13 @@ a:hover {
 
 .menu {
     position: absolute;
-    top: 20px;
+    top: 28px;
     right: 30px;
-    background: red;
+    background: transparent;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    box-shadow:0px 0px 0px #ffffff;
+    box-shadow:0px 0px 0px 0px #ffffff;
     z-index: -1;
     transition: 400ms ease-in-out 0;
 }
@@ -183,3 +183,8 @@ a:hover {
     background-color: white;
 }
 
+/*Efeito de bolha do checkbox no menu*/
+#toggle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax white;
+    z-index: 1;
+}
