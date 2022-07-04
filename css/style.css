@@ -144,3 +144,14 @@ a:hover {
     transition: 400ms ease-in-out 0;
 }
 
+/*Trabalhando diretamente com a lista dos itens do menu*/
+
+.menu-itens ul li {
+    margin: 10px 0;
+    color: #2e1c2b;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
