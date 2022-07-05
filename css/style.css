@@ -165,7 +165,7 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color: #b8a6b5 ;
+    background-color: #f5ebf3 ;
     top: 47px;
 }
 
@@ -180,18 +180,18 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #b8a6b5 ;
+    background-color: #f5ebf3 ;
     top: 48px;
 }
 
 /*Modificanco o efeito do checkbox para que fique branco*/
 #toggle:checked + .checkbox {
-    background-color: white;
+    background-color: #b8a6b5;
 }
 
 /*Efeito de bolha do checkbox no menu*/
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax white;
+    box-shadow: 0px 0px 0px 100vmax #b8a6b5;
     z-index: 1;
 }
 
