@@ -64,6 +64,27 @@ a:hover {
         background-position: 0% 90%;
     }
 }
+
+/*Logo Foto NavBar*/
+.logo-photo {
+    margin: 0%;
+    padding-top: 4rem;
+    margin-bottom: 34rem;
+    margin-left: 73rem;
+    position: absolute;
+    cursor: pointer;
+    
+    
+}
+
+img {
+    border: #ffffff solid thick;
+    border-radius: 80%;
+    width: 40px;
+    height:40px;
+
+}
+
 /*Menu Hamburguer*/
 
 .checkbox-container {
@@ -312,6 +333,10 @@ a:hover {
         flex-direction: column;
     }
 
+    .logo-photo {
+        width: 110%;
+
+    }
     .container {
         margin-top: 0;
     }
