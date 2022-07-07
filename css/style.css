@@ -68,22 +68,26 @@ a:hover {
 
 /*Logo Foto NavBar*/
 .logo-photo {
-    margin: 0%;
-    padding-top: 4rem;
-    margin-bottom: 37.5rem;
-    margin-left: 73rem;
+    height: 100px;
+    width: 100px;
     position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
-    
-    
+
 }
 
 img {
     border: #ffffff solid thick;
     border-radius: 80%;
-    width: 40px;
-    height:40px;
+    width: 33px;
+    height:33px;
+    margin-right: 7rem;
+    margin-top: 1.6rem;
 
+    
 }
 
 /*Menu Hamburguer*/
@@ -132,6 +136,7 @@ img {
     top: 66px;
     transform: rotate(0);
 }
+
 
 #toggle {
     display: none;
@@ -334,10 +339,6 @@ img {
         flex-direction: column;
     }
 
-    .logo-photo {
-        width: 100%;
-
-    }
     .container {
         margin-top: 0;
     }
